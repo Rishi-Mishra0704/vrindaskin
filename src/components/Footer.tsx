@@ -27,6 +27,7 @@ const Footer = () => {
               <a
                 href="https://www.instagram.com/vrundaskin/?utm_medium=copy_link&hl=en"
                 className="flex text-lg text-pink-600 hover:text-pink-700"
+                target="_blank"
               >
                 <BiLogoInstagramAlt className="text-2xl mx-1" /> Instagram
               </a>
@@ -35,6 +36,7 @@ const Footer = () => {
               <a
                 href="https://www.facebook.com/people/Vrunda-skin-oil-serum/100076303071789/?mibextid=LQQJ4d"
                 className="flex text-lg text-pink-600 hover:text-pink-700"
+                target="_blank"
               >
                 <BiLogoFacebookSquare className="text-2xl mx-1" /> Facebook
               </a>
@@ -43,6 +45,7 @@ const Footer = () => {
               <a
                 href="https://www.youtube.com/@vrundaskin"
                 className="flex text-lg text-pink-600 hover:text-pink-700"
+                target="_blank"
               >
                 <BiLogoYoutube className='text-2xl mx-1'/> Youtube
               </a>
@@ -51,6 +54,7 @@ const Footer = () => {
               <a
                 href="https://www.linkedin.com/in/vrunda-skin-5b2720273/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
                 className="flex text-lg  text-pink-600 hover:text-pink-700"
+                target="_blank"
               >
                 <BiLogoLinkedinSquare className='text-2xl mx-1'/> LinkedIn
               </a>

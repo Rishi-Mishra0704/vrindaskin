@@ -5,7 +5,7 @@ import { fadeIn } from "./animation"; // Adjust the import path
 import Link from "next/link";
 
 const AnimatedText = styled.div`
-  animation: 2s ${fadeIn};
+  animation: 1.5s ${fadeIn};
 `;
 
 const Hero = () => {

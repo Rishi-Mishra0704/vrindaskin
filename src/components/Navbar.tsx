@@ -6,7 +6,7 @@ const Nav = () => {
   let Links = [
     { name: "HOME", link: "/" },
     { name: "ABOUT", link: "/#about" },
-    { name: "PRODUCTS", link: "/" },
+    { name: "PRODUCTS", link: "/#product" },
 
   ];
   let [open, setOpen] = useState(false);
@@ -17,7 +17,7 @@ const Nav = () => {
           className="font-semibold text-2xl cursor-pointer flex items-center font-[Poppins] 
       text-purple-400"
         >
-          VrindaSkin
+          VrundaSkin
         </div>
 
         <div

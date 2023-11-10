@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
-import prod1 from '../assets/prod1.png';
-import prod2 from '../assets/prod2.png';
+import prod1 from '@/assets/prod1.png';
+import prod2 from '@/assets/prod2.png';
 
 const Product = () => {
   return (

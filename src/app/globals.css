@@ -23,3 +23,14 @@ html {
 .animate-fade-in {
   animation: fade-in 1s ease forwards;
 }
+
+.about-fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s, transform 0.5s;
+}
+
+.about-fade-in.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+}

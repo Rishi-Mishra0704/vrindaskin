@@ -9,7 +9,7 @@ const Product = () => {
     <div id="product" className="flex flex-col md:flex-row h-1/2 justify-center m-5 p-4">
       <div className="sm:w-1/2 mb-4 sm:mb-0">
         <Image
-          src={prod1} // Dummy image URL
+          src='../assets/prod2.png'
           alt="Product"
           objectFit="cover"
           width={300}
@@ -30,7 +30,7 @@ const Product = () => {
       </div>
       <div className="sm:w-1/2">
         <Image
-          src={prod2} // Dummy image URL
+          src='../assets/prod2.png'
           alt="Product"
           objectFit="cover"
           width={300}

@@ -10,7 +10,7 @@ const AnimatedText = styled.div`
 
 const Hero = () => {
   return (
-    <div className="bg-gradient-to-r p-4 from-purple-600 to-purple-400 text-white h-screen flex flex-col justify-center">
+    <div id="hero" className="bg-gradient-to-r p-4 from-purple-600 to-purple-400 text-white h-screen flex flex-col justify-center">
       <AnimatedText>
         <h1 className="text-4xl md:text-6xl font-extrabold text-gray-300 text-left leading-tight mb-6">
           Discover Your Skin's Natural Beauty
